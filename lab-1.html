@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lab-1</title>
+	<link rel="stylesheet" type="text/css" href="lab-1.css">
+</head>
+<body>
+	<div class="page">
+
+		<h1>Login Page</h1>
+
+		<form action="" id="loginform" name="loginform">
+			<fieldset>
+				<legend>User Authentication</legend>
+				<div class="loginform__inputdiv">
+					<label for="loginform__usernamei">Username: </label>
+					<input type="text" id="loginform__usernamei" name="loginform__usernamei">
+				</div>
+				<div class="loginform__inputdiv">
+					<label for="loginform__passwordi">Password:</label>
+					<input type="text" id="loginform__passwordi" name="loginform__passwordi">
+				</div>
+				<input type="submit" value="Login" name="loginform__submit">
+				<div id="loginform__message"></div>
+			</fieldset>
+		</form>
+
+		<div id="result">
+			<p class="result__label">User Name: <span id="usernameo__value">name here</span></p>
+			<p class="result__label">Password: <span id="passwordo__value">pass here</span></p>
+		</div>
+	</div>
+	<script src="lab-1.js"></script>
+</body>
+</html>
